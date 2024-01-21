@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/resources/features", 
 		glue = { "com.stepdefinations", "com.hooks" },
-		tags = "@SC_InvalidLogin",
+		//tags = "@SC_InvalidLogin",
 		publish = true,
 		plugin = "pretty"
 		)
